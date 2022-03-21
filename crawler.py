@@ -48,7 +48,7 @@ class Crawler:
         self.driver.switch_to.frame("cmp-iframe")
         try:
             element = self.driver.find_elements(By.XPATH, "//button")
-            return element[1].click()
+            element[1].click()
         except (NoSuchElementException, TimeoutException):
             return False
 
