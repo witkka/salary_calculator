@@ -49,6 +49,7 @@ class Crawler:
         try:
             element = self.driver.find_elements(By.XPATH, "//button")
             element[1].click()
+            return True
         except (NoSuchElementException, TimeoutException):
             return False
 
