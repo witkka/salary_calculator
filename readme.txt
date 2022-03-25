@@ -7,6 +7,5 @@ Aplikacja:
 - pobiera zawartość strony
 - pobiera dane o wysokośći wynagrodzenia netto
 
-Nie użyto pakietu sys
 Zaztosowano bibliotekę "retry", która umożliwia wielokrotne odpalenie
 funkcji w przypadku zwrócenia wartości False
